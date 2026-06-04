@@ -53,7 +53,6 @@ export default function LandingPage() {
 
   <div id="home" data-section="home">
       <HeroBillboardCarousel
-      useInvertedBackground={false}
       background={{
         variant: "radial-gradient"}}
       title="COZY BEACHFRONT VILLA"
