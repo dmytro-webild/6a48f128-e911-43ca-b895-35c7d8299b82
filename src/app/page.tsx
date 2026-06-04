@@ -85,7 +85,7 @@ export default function LandingPage() {
         {
           text: "Explore The Villa",          href: "#about"},
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E543k7mmlNwQSu5VjRAqB31ICi/uploaded-1780582566790-3pex80b1.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E543k7mmlNwQSu5VjRAqB31ICi/uploaded-1780582566790-3pex80b1.jpg?_wi=1"
       imageAlt="Luxury beachfront villa in Zanzibar with a private pool and ocean view"
       mediaAnimation="slide-up"
     />
@@ -99,7 +99,7 @@ export default function LandingPage() {
       description="Cozy Beachfront Villa is a haven of peace, blending traditional Swahili architecture with modern comforts. Enjoy private access to the pristine white sands, panoramic ocean views, and the soothing rhythm of the Indian Ocean."
       subdescription="Each detail, from handcrafted furnishings to lush tropical gardens, invites you to unwind and immerse yourself in the authentic island experience. Your unforgettable retreat starts here."
       icon={Home}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E543k7mmlNwQSu5VjRAqB31ICi/uploaded-1780582566789-ony8kujo.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E543k7mmlNwQSu5VjRAqB31ICi/uploaded-1780582566789-ony8kujo.jpg?_wi=1"
       imageAlt="Traditional Zanzibari architecture interior of Cozy Beachfront Villa"
       mediaAnimation="opacity"
     />
@@ -111,9 +111,9 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Infinity Pool",          description: "Relax in our stunning infinity pool, seamlessly blending with the ocean horizon.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E543k7mmlNwQSu5VjRAqB31ICi/uploaded-1780582566789-z22aq9wv.jpg",          imageAlt: "Infinity pool overlooking the ocean"},
+          title: "Infinity Pool",          description: "Relax in our stunning infinity pool, seamlessly blending with the ocean horizon.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E543k7mmlNwQSu5VjRAqB31ICi/uploaded-1780582566789-z22aq9wv.jpg?_wi=1",          imageAlt: "Infinity pool overlooking the ocean"},
         {
-          title: "Outdoor Rain Shower",          description: "Embrace the tropical air with our refreshing outdoor rain shower amidst lush greenery.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E543k7mmlNwQSu5VjRAqB31ICi/uploaded-1780582566789-o704d61l.jpg",          imageAlt: "Outdoor rain shower in a tropical setting"},
+          title: "Outdoor Rain Shower",          description: "Embrace the tropical air with our refreshing outdoor rain shower amidst lush greenery.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E543k7mmlNwQSu5VjRAqB31ICi/uploaded-1780582566789-o704d61l.jpg?_wi=1",          imageAlt: "Outdoor rain shower in a tropical setting"},
         {
           title: "High-Speed Wi-Fi",          description: "Stay connected with complimentary high-speed internet access throughout the villa.",          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-sitting-bed_23-2149647891.jpg",          imageAlt: "Wifi symbol with tropical background"},
         {
@@ -163,13 +163,13 @@ export default function LandingPage() {
       tag="Visual Journey"
       blogs={[
         {
-          id: "gal1",          category: "Views",          title: "Sunrise on the Deck",          excerpt: "Wake up to breathtaking views as the sun paints the sky over the Indian Ocean.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E543k7mmlNwQSu5VjRAqB31ICi/uploaded-1780582566789-z22aq9wv.jpg",          imageAlt: "Sunrise view from the villa deck",          authorName: "Villa Team",          authorAvatar: "http://img.b2bpic.net/free-vector/flat-glamping-logo_23-2149388576.jpg",          date: "Jan 2024"},
+          id: "gal1",          category: "Views",          title: "Sunrise on the Deck",          excerpt: "Wake up to breathtaking views as the sun paints the sky over the Indian Ocean.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E543k7mmlNwQSu5VjRAqB31ICi/uploaded-1780582566789-z22aq9wv.jpg?_wi=2",          imageAlt: "Sunrise view from the villa deck",          authorName: "Villa Team",          authorAvatar: "http://img.b2bpic.net/free-vector/flat-glamping-logo_23-2149388576.jpg",          date: "Jan 2024"},
         {
-          id: "gal2",          category: "Interiors",          title: "Cozy Living Area",          excerpt: "Relax in our elegantly designed living space, blending comfort with Zanzibari charm.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E543k7mmlNwQSu5VjRAqB31ICi/uploaded-1780582566789-ony8kujo.jpg",          imageAlt: "Interior of the villa living area",          authorName: "Villa Team",          authorAvatar: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=ka9803",          date: "Feb 2024"},
+          id: "gal2",          category: "Interiors",          title: "Cozy Living Area",          excerpt: "Relax in our elegantly designed living space, blending comfort with Zanzibari charm.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E543k7mmlNwQSu5VjRAqB31ICi/uploaded-1780582566789-ony8kujo.jpg?_wi=2",          imageAlt: "Interior of the villa living area",          authorName: "Villa Team",          authorAvatar: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=ka9803",          date: "Feb 2024"},
         {
-          id: "gal3",          category: "Interiors",          title: "Serene Bedroom Retreat",          excerpt: "Drift into peaceful slumber in our luxurious bedrooms, designed for ultimate relaxation.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E543k7mmlNwQSu5VjRAqB31ICi/uploaded-1780582566789-o704d61l.jpg",          imageAlt: "Bedroom interior with tropical decor",          authorName: "Villa Team",          authorAvatar: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4xdkes",          date: "Mar 2024"},
+          id: "gal3",          category: "Interiors",          title: "Serene Bedroom Retreat",          excerpt: "Drift into peaceful slumber in our luxurious bedrooms, designed for ultimate relaxation.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E543k7mmlNwQSu5VjRAqB31ICi/uploaded-1780582566789-o704d61l.jpg?_wi=2",          imageAlt: "Bedroom interior with tropical decor",          authorName: "Villa Team",          authorAvatar: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4xdkes",          date: "Mar 2024"},
         {
-          id: "gal4",          category: "Outdoors",          title: "Beachfront Patio Bliss",          excerpt: "Enjoy direct access to the sands and panoramic ocean views from your private patio.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E543k7mmlNwQSu5VjRAqB31ICi/uploaded-1780582566790-3pex80b1.jpg",          imageAlt: "Beachfront patio with seating",          authorName: "Villa Team",          authorAvatar: "http://img.b2bpic.net/free-photo/aerial-view-red-blue-beach-huts-rye-shoreline_1308-189441.jpg",          date: "Apr 2024"},
+          id: "gal4",          category: "Outdoors",          title: "Beachfront Patio Bliss",          excerpt: "Enjoy direct access to the sands and panoramic ocean views from your private patio.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E543k7mmlNwQSu5VjRAqB31ICi/uploaded-1780582566790-3pex80b1.jpg?_wi=2",          imageAlt: "Beachfront patio with seating",          authorName: "Villa Team",          authorAvatar: "http://img.b2bpic.net/free-photo/aerial-view-red-blue-beach-huts-rye-shoreline_1308-189441.jpg",          date: "Apr 2024"},
         {
           id: "gal5",          category: "Culture",          title: "Local Market Visit",          excerpt: "Immerse yourself in vibrant local culture with a visit to a bustling Zanzibari market.",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-sour-fresh-tangerines-with-lemons-plums-light-white-desk_140725-115437.jpg",          imageAlt: "Local market scene in Zanzibar",          authorName: "Villa Team",          authorAvatar: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=aasmxn",          date: "May 2024"},
         {
