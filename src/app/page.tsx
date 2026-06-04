@@ -6,7 +6,7 @@ import BlogCardThree from '@/components/sections/blog/BlogCardThree';
 import ContactText from '@/components/sections/contact/ContactText';
 import FeatureCardEight from '@/components/sections/feature/FeatureCardEight';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
-import HeroSplitTestimonial from '@/components/sections/hero/HeroSplitTestimonial';
+import HeroBillboardCarousel from '@/components/sections/hero/HeroBillboardCarousel';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
@@ -52,38 +52,28 @@ export default function LandingPage() {
   </div>
 
   <div id="home" data-section="home">
-      <HeroSplitTestimonial
+      <HeroBillboardCarousel
       useInvertedBackground={false}
       background={{
         variant: "radial-gradient"}}
       title="COZY BEACHFRONT VILLA"
       description="Your tropical paradise awaits"
-      testimonials={[
-        {
-          name: "Amina S.",          handle: "@AminaTravels",          testimonial: "An absolutely magical stay! The villa offered breathtaking views and privacy, exactly what we needed. Zanzibar is a dream, and this villa made it perfect.",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/asian-woman-talking-phone-beach_1303-15686.jpg"},
-        {
-          name: "David M.",          handle: "@IslandExplorer",          testimonial: "From the stunning infinity pool to the authentic Swahili touches, every moment was pure bliss. Truly a hidden gem on the coast of Zanzibar.",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/happy-man-relaxing-beach_107420-9877.jpg"},
-        {
-          name: "The Johnsons",          handle: "@FamilyGetaway",          testimonial: "Our family had an unforgettable experience. The kids loved the beach, and we cherished the serene evenings. Highly recommend Cozy Beachfront Villa!",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/happy-man-with-long-beard-wearing-hat-wearing-striped-shirt-showing-gesture-blue_1150-17102.jpg"},
-        {
-          name: "Chris P.",          handle: "@BeachVibes",          testimonial: "Absolutely stunning! The villa provides the perfect blend of luxury and authentic island life. Highly recommend booking a direct escape here.",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-young-woman-beautiful-water-villa-maldives-island-travel-vacation-outdoor-shot_1232-4458.jpg"},
-        {
-          name: "Sophia G.",          handle: "@WanderlustSophia",          testimonial: "This villa is pure bliss. Waking up to the ocean every day was a dream come true. Zanzibar's beauty is unmatched, and this stay captured it perfectly.",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/lady-ocean-summertime-woman-vacation_1232-3861.jpg"},
-      ]}
-      testimonialRotationInterval={5000}
       buttons={[
         {
           text: "Book Your Escape",          href: "#contact"},
         {
           text: "Explore The Villa",          href: "#about"},
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E543k7mmlNwQSu5VjRAqB31ICi/uploaded-1780582566790-3pex80b1.jpg?_wi=1"
-      imageAlt="Luxury beachfront villa in Zanzibar with a private pool and ocean view"
+      mediaItems={[
+        {
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E543k7mmlNwQSu5VjRAqB31ICi/uploaded-1780582566790-3pex80b1.jpg?_wi=1",          imageAlt: "Luxury beachfront villa in Zanzibar with a private pool and ocean view"},
+        {
+          imageSrc: "http://img.b2bpic.net/free-photo/asian-woman-talking-phone-beach_1303-15686.jpg",          imageAlt: "Asian woman talking on phone on the beach"},
+        {
+          imageSrc: "http://img.b2bpic.net/free-photo/happy-man-relaxing-beach_107420-9877.jpg",          imageAlt: "Happy man relaxing on the beach"},
+        {
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-young-woman-beautiful-water-villa-maldives-island-travel-vacation-outdoor-shot_1232-4458.jpg",          imageAlt: "Portrait of a happy young woman at a beautiful water villa"}
+      ]}
       mediaAnimation="slide-up"
     />
   </div>
