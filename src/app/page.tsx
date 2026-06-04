@@ -134,15 +134,11 @@ export default function LandingPage() {
         {
           id: "exp1",          name: "Stone Town Tour",          price: "Upon Request",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3E543k7mmlNwQSu5VjRAqB31ICi/uploaded-1780582566790-qtztkjhw.jpg",          imageAlt: "Historic Stone Town streets"},
         {
-          id: "exp2",          name: "Spice Farm Exploration",          price: "Upon Request",          imageSrc: "http://img.b2bpic.net/free-photo/african-children-enjoying-life_23-2151447874.jpg",          imageAlt: "Zanzibar spice farm"},
-        {
           id: "exp3",          name: "Sunset Dhow Cruise",          price: "Upon Request",          imageSrc: "http://img.b2bpic.net/free-photo/mother-son-outdoors-sunset-with-copy-space_1249-612.jpg",          imageAlt: "Traditional Dhow boat at sunset"},
         {
           id: "exp4",          name: "Kite Surfing Lessons",          price: "Upon Request",          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-girl-posing-sitting-surfboard-ocean_72229-743.jpg",          imageAlt: "Person kitesurfing on the ocean"},
         {
           id: "exp5",          name: "Fresh Seafood Dining",          price: "Upon Request",          imageSrc: "http://img.b2bpic.net/free-photo/dried-smoked-fish-served-with-lemon-wooden-platter_140725-5801.jpg",          imageAlt: "Platter of fresh seafood"},
-        {
-          id: "exp6",          name: "Jozani Forest Excursion",          price: "Upon Request",          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-holding-cocoa-bean_23-2149142855.jpg",          imageAlt: "Red Colobus monkeys in Jozani Forest"},
       ]}
       title="Immersive Local Experiences"
       description="Beyond the villa, Zanzibar beckons with unforgettable adventures and cultural discoveries tailored just for you."
