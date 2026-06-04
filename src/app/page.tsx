@@ -73,7 +73,6 @@ export default function LandingPage() {
         {
           imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-young-woman-beautiful-water-villa-maldives-island-travel-vacation-outdoor-shot_1232-4458.jpg",          imageAlt: "Portrait of a happy young woman at a beautiful water villa"}
       ]}
-      mediaAnimation="slide-up"
     />
   </div>
 
