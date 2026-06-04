@@ -10,7 +10,6 @@ import HeroSplitTestimonial from '@/components/sections/hero/HeroSplitTestimonia
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
-import TestimonialCardTwelve from '@/components/sections/testimonial/TestimonialCardTwelve';
 import { Home } from "lucide-react";
 
 export default function LandingPage() {
@@ -41,8 +40,6 @@ export default function LandingPage() {
           name: "Experiences",          id: "#experiences"},
         {
           name: "Gallery",          id: "#gallery"},
-        {
-          name: "Testimonials",          id: "#testimonials"},
         {
           name: "Contact",          id: "#contact"},
       ]}
@@ -178,27 +175,6 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="testimonials" data-section="testimonials">
-      <TestimonialCardTwelve
-      useInvertedBackground={true}
-      testimonials={[
-        {
-          id: "t1",          name: "Sarah & Tom R.",          imageSrc: "http://img.b2bpic.net/free-photo/young-smiling-happy-man-woman-sunglasses-sitting-sand-beach-taking-selfie-photo-phone-camera_285396-737.jpg"},
-        {
-          id: "t2",          name: "Jessica L.",          imageSrc: "http://img.b2bpic.net/free-photo/smiling-businesswoman-standing-airport_107420-63594.jpg"},
-        {
-          id: "t3",          name: "The Kim Family",          imageSrc: "http://img.b2bpic.net/free-photo/asian-young-happy-family-enjoy-vacation-beach-evening-dad-mom-kid-relax-running-together-near-sea-while-silhouette-sunset-lifestyle-travel-holiday-vacation-summer-concept_7861-2447.jpg"},
-        {
-          id: "t4",          name: "Michael S.",          imageSrc: "http://img.b2bpic.net/free-photo/handsome-shirtless-man-posing-with-wearing-swimming-goggles_23-2148221965.jpg"},
-        {
-          id: "t5",          name: "Eleanor & George V.",          imageSrc: "http://img.b2bpic.net/free-photo/trendy-woman-with-short-hair-hat-black-sunglasses-striped-blouse-smiling-holding-card-posing-with-grey-haired-man-with-camera-park_197531-19158.jpg"},
-      ]}
-      cardTitle="Cherished Guest Experiences"
-      cardTag="Hear From Our Guests"
-      cardAnimation="slide-up"
-    />
-  </div>
-
   <div id="contact" data-section="contact">
       <ContactText
       useInvertedBackground={false}
@@ -231,8 +207,6 @@ export default function LandingPage() {
               label: "Local Tours",              href: "#experiences"},
             {
               label: "Photo Gallery",              href: "#gallery"},
-            {
-              label: "Guest Reviews",              href: "#testimonials"},
           ],
         },
         {
