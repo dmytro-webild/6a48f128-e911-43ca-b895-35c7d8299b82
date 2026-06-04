@@ -56,8 +56,8 @@ export default function LandingPage() {
       useInvertedBackground={false}
       background={{
         variant: "radial-gradient"}}
-      title="Your Tropical Paradise Awaits"
-      description="Discover the magic of Zanzibar from Cozy Beachfront Villa, where luxury meets local charm. Wake up to ocean breezes, pristine sands, and endless tranquility."
+      title="COZY BEACHFRONT VILLA"
+      description="Your tropical paradise awaits"
       testimonials={[
         {
           name: "Amina S.",          handle: "@AminaTravels",          testimonial: "An absolutely magical stay! The villa offered breathtaking views and privacy, exactly what we needed. Zanzibar is a dream, and this villa made it perfect.",          rating: 5,
