@@ -43,10 +43,10 @@ export const metadata: Metadata = {
 };
 
 
-const libreBaskerville = Libre_Baskerville({
-  variable: "--font-libre-baskerville",
+
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
   subsets: ["latin"],
-  weight: ["400", "700"],
 });
 const inter = Inter({
   variable: "--font-inter",
@@ -61,7 +61,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${libreBaskerville.variable} ${inter.variable} antialiased`}>
+        <body className={`${montserrat.variable} ${inter.variable} antialiased`}>
           <Tag />
           {children}
           <script
