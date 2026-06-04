@@ -138,7 +138,7 @@ export default function LandingPage() {
         {
           id: "exp4",          name: "Kite Surfing Lessons",          price: "Upon Request",          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-girl-posing-sitting-surfboard-ocean_72229-743.jpg",          imageAlt: "Person kitesurfing on the ocean"},
         {
-          id: "exp5",          name: "Fresh Seafood Dining",          price: "Upon Request",          imageSrc: "http://img.b2bpic.net/free-photo/dried-smoked-fish-served-with-lemon-wooden-platter_140725-5801.jpg",          imageAlt: "Platter of fresh seafood"},
+          id: "exp5",          name: "Fresh Seafood Dining",          price: "Upon Request",          imageSrc: "https://img.b2bpic.net/free-photo/top-view-tasty-cooked-fish-with-fresh-vegetables-dark-table_140725-143827.jpg?id=17187728",          imageAlt: "Platter of fresh seafood"},
       ]}
       title="Immersive Local Experiences"
       description="Beyond the villa, Zanzibar beckons with unforgettable adventures and cultural discoveries tailored just for you."
@@ -216,7 +216,7 @@ export default function LandingPage() {
           ],
         },
       ]}
-      bottomLeftText="© 2024 Cozy Beachfront Villa. All rights reserved."
+      bottomLeftText="© 2026 Cozy Beachfront Villa. All rights reserved."
       bottomRightText="Zanzibar beach villa | Tanzania vacation rental | oceanfront stay in Kiwengwa"
     />
   </div>
